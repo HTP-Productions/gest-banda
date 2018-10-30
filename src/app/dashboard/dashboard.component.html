@@ -1,0 +1,12 @@
+<h3 class="display-7" >Eventos</h3>
+<div >
+  <ul class="list-group" *ngFor="let evento of eventos" >
+    <li  class="list-group-item"  routerLink="/eventopresencas/{{evento.id}}">
+      <a >{{evento.name}}</a>
+    </li>
+  </ul>
+</div>
+
+
+
+

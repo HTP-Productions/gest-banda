@@ -1,0 +1,11 @@
+<div *ngIf="evento">
+
+  <h2>Detalhe do evento {{evento.name | uppercase}}</h2>
+  <div><span>id: </span>{{evento.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="evento.name" placeholder="name"/>
+    </label>
+  </div>
+  <button (click)="goBack()">go back</button>
+</div>
