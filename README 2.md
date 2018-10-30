@@ -27,6 +27,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
+Para instalar as dependencias apos checkout
+npm install
 
 Para arrancar o serviço do Node.Js:
 ng serve --open
@@ -47,3 +49,8 @@ ng build --prod --base-href . --output-path public
 SQLITTE:
 npm i cordova-sqlite-storage
 ng g service Cordova
+
+
+Enviar para o Firebase:
+ng build --prod --base-href . --output-path public
+firebase deploy
