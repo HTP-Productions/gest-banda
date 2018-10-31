@@ -1,0 +1,68 @@
+{
+  "eventos" : {
+    "1" : {
+      "id" : "1",
+      "name" : "Aniversário"
+    },
+    "2" : {
+      "id" : "2",
+      "name" : "S. Martinho"
+    },
+    "3" : {
+      "id" : "3",
+      "name" : "Halloween"
+    }
+  },
+  "socios" : {
+    "1" : {
+      "id" : "1",
+      "name" : "Harry Potter"
+    },
+    "2" : {
+      "id" : "2",
+      "name" : "One Punch Man"
+    },
+    "3" : {
+      "id" : "3",
+      "name" : "John Doe"
+    }
+  },
+  "socios_eventos" : {
+    "1" : {
+      "id" : "1",
+      "idSocio":"1",
+      "idEvento" : "1",
+      "estado":"Presente"
+    },
+    "2" : {
+      "id" : "2",
+      "idSocio":"2",
+      "idEvento" : "1",
+      "estado":"Ausente"
+    },
+    "3" : {
+      "id" : "3",
+      "idSocio":"3",
+      "idEvento" : "1",
+      "estado":"MeiaPresenca"
+    },
+    "4" : {
+      "id" : "4",
+      "idSocio":"1",
+      "idEvento" : "2",
+      "estado":"Presente"
+    },
+    "5" : {
+      "id" : "5",
+      "idSocio":"2",
+      "idEvento" : "2",
+      "estado":"Ausente"
+    },
+    "6" : {
+      "id" : "6",
+      "idSocio":"3",
+      "idEvento" : "2",
+      "estado":"Presente"
+    }
+  }
+}
